@@ -1,0 +1,27 @@
+
+h2[title ~= "otro"]{
+    color: rgb(195, 0, 255);
+}
+h2[lang |= "es"]{
+    color: blue;
+}
+li {
+    color: rgb(59, 9, 24);
+}
+
+h2 {
+    color: rgb(241, 68, 135);
+}
+fieldset {
+    color: rgb(47, 28, 224);
+}  
+footer[id ~= "Pie"]{
+    color: chocolate;
+}  
+header{
+    width: 100%;
+    height:50px;
+    background: rgb(253, 207, 121);
+}
+    
+    
